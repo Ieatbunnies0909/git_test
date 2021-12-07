@@ -1,0 +1,142 @@
+body {
+  margin: 0%;
+
+  text-align: center;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background: #b5c99a;
+  background: wheat;
+  font-family: "Merriweather", serif;
+  align-items: center;
+  font-size: 1rem;
+}
+
+#nav-head {
+  margin-left: 5%;
+  align-items: center;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  padding: 1em;
+  font-family: "Merriweather", serif;
+}
+
+#nav-list li:hover {
+  color: aquamarine;
+  transform: rotate(6deg);
+  transition: all 0.3s ease-out;
+}
+
+#nav-list a {
+  color: black;
+  text-decoration: none;
+}
+
+#nav-list li {
+  margin: 1em;
+  font-size: 1.2rem;
+}
+
+.top-container h1 {
+  margin: 0;
+  font-size: 7rem;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+.top-container p {
+  margin: 0;
+  position: relative;
+  align-self: center;
+  font-family: "Merriweather", serif;
+  font-family: "Sacramento", cursive;
+  font-family: "Merriweather", serif;
+  color: #66bfbf;
+  font-size: 1.7rem;
+}
+.top-container {
+  background-color: antiquewhite;
+  padding: 15em;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 500px;
+}
+
+.bot-cloud {
+  position: absolute;
+  right: 500px;
+  top: 300px;
+}
+
+.profile h2 {
+  color: #66bfbf;
+  text-align: center;
+  margin: auto;
+}
+
+.profile-img {
+  margin-top: 6em;
+  size: 20%;
+  margin-left: 150px;
+  
+}
+
+.profile p {
+  margin: auto;
+}
+
+.middle-container {
+  background-color: wheat;
+ 
+}
+.profile{
+  display: flex;
+ gap: 7em;
+}
+.skill-computer {
+  width: 200px;
+  float: right;
+  margin: auto;
+  clear: both;
+}
+
+.skill-chillies {
+  width: 200px;
+  float: left;
+  right: 2%;
+  top:6%;
+  position: relative;
+  clear: both;
+}
+
+.skill-row {
+  width: 50%;
+  padding: 3em;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  margin-bottom: 2.5em;
+}
+
+.skills h2 {
+  color: #66bfbf;
+}
+
+.skills h3 {
+  color: #66bfbf;
+}
